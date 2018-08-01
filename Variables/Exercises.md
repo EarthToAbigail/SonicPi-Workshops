@@ -149,3 +149,70 @@ Create a melody by using variables instead of numbers. Try to add parameters to 
 HINT: Try to use this exercise to explore different keyboards in SonicPi! On the first line, try to type `use_synth :` and see the list that comes up :wink:
 
 HINT 2: You can also read the built-in documentation to have more information on all the keyboards available.
+
+### Exercise 3
+
+Take the melody you created in Exercise 2 and try placing a `s` or `b` after the letter in the note name. For example, copy and paste this code in a SonicPi buffer:
+
+```
+use_bpm 60
+use_synth :piano
+
+play :c4
+sleep 0.5
+play :cs4
+sleep 0.5
+play :d4
+sleep 0.5
+play :ds4
+sleep 0.5
+play :e4
+sleep 0.5
+play :f4
+sleep 0.5
+play :fs4
+sleep 0.5
+play :g4
+sleep 0.5
+play :gs4
+sleep 0.5
+play :a4
+sleep 0.5
+play :as4
+sleep 0.5
+play :b4
+sleep 0.5
+play :c5
+sleep 2
+
+play :c5
+sleep 0.5
+play :b4
+sleep 0.5
+play :bb4
+sleep 0.5
+play :a4
+sleep 0.5
+play :ab4
+sleep 0.5
+play :g4
+sleep 0.5
+play :gb4
+sleep 0.5
+play :f4
+sleep 0.5
+play :e4
+sleep 0.5
+play :eb4
+sleep 0.5
+play :d4
+sleep 0.5
+play :db4
+sleep 0.5
+play :c4
+sleep 2
+```
+
+Put together everything that you know about variables to create a new melody with your team mate!
+
+HINT: You can also try to recreate melodies that you know! :sparkles: :musical_note: :smiley_cat:
