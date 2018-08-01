@@ -1,4 +1,4 @@
-# Introducing Variables :sunglasses:
+# Introducing Variables :sunglasses: :sunny:
 
 ## What is a variable?
 
@@ -30,7 +30,7 @@ mySum = num1 + num2 + num3   // 'mySum' now holds the value 27 (4 + 12 + 11)
 
 ```
 
-Let's try and apply this to making music with SonicPi :grinning: :musical_keyboard:
+Let's try and apply this to making music with SonicPi :grinning: :notes: :musical_keyboard:
 
 Consider this piece of code (feel free to copy and paste it in a SonicPi buffer!)
 
