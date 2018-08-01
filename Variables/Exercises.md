@@ -1,8 +1,8 @@
-# Understanding Variables
+# Introducing Variables :sunglasses: :sunny:
 
 ## What is a variable?
 
-A variable is a piece of code that contains some information. Variables make our lives easier when we are programming because they allow us to save information in something that we can easily recognize, remember and reuse.
+A variable is a piece of code that contains some information. Variables make our lives easier when we are programming because they allow us to save information in something that we can easily recognize, remember and re-use.
 
 For example, let's say that I want my program to execute a mathematical operation. I can of course write the equation with numbers:
 
@@ -30,7 +30,7 @@ mySum = num1 + num2 + num3   // 'mySum' now holds the value 27 (4 + 12 + 11)
 
 ```
 
-Let's try and apply this to making music with SonicPi :D
+Let's try and apply this to making music with SonicPi :grinning: :notes: :musical_keyboard:
 
 Consider this piece of code (feel free to copy and paste it in a SonicPi buffer!)
 
@@ -80,11 +80,11 @@ sleep 1
 play note_3
 sleep 1
 ```
-If we try to run this code in SonicPi we will not hear anything, instead we will see a big error message.
+If we try to run this code in SonicPi we will not hear anything, instead we will see a big error message. :construction: :sos: :warning: :flushed:
 
 ![Alt text](images/error.jpg?raw=true "SonicPi Error Message")
 
-If you read the error message carefully, you can see that SonicPi is throwing a `NameError` and seems to be complaining about the variable `note_2`. This is happening because we are trying to use the variable `note_2` before declaring it and assigning it a value. (We will cover error messages in a different workshop :D).
+If you read the error message carefully, you can see that SonicPi is throwing a `NameError` and seems to be complaining about the variable `note_2`. This is happening because we are trying to use the variable `note_2` before declaring it and assigning it a value. (We will cover error messages in a different workshop :blush:).
 
 It's important to know that a variable declaration works from left to right. On the left you have the name that you want to give to your variable, followed by the `=` sign and on the right is the value that you want to assign to it.
 
@@ -92,7 +92,7 @@ It's important to know that a variable declaration works from left to right. On 
 
 Speaking about names, one thing that is helpful is to give our variables **names that are descriptive and will help us remember the information they are holding**.
 
-For example, SonicPi already a bunch of declared variables built in that are ready for us to use. Until now we've been using numbers to say to SonicPi which note to play but we can also play these same notes by calling their variable name :D
+For example, SonicPi has already a bunch of declared variables built in that are ready for us to use. Until now we've been using numbers to say to SonicPi which note to play but we can also play these same notes by calling their variable name :smirk:
 
 Now, instead of typing numbers we can call these notes by their name like so:
 
@@ -109,8 +109,8 @@ In music, the notes are named with letters of the alphabet from `a` to `g`:
 `A B C D E F G`
 
 * The `:` indicates to SonicPi that we are using a built-in variable.
-* The letter is the name of the note
-* The number indicates **how high or low the note is** (1 is very low and 6 is very high).
+* The `letter` is the name of the note
+* The `number` indicates **how high or low the note is** (1 is very low and 6 is very high).
 
 The creator of the program could've decided to call these variable `xyz` or `n1, n2, n3` but instead he decided to call them by the actual name of the note. This makes it very easy to understand what this variable is for and what piece of information is inside it!
 
@@ -140,13 +140,13 @@ use_synth :blade
 end
 ```
 HINT: You can store any value in a variable! What would happen if
-you used a variable for `amp:` or `release` ? ;-)
+you used a variable for `amp:` or `release` ? :wink:
 
 ### Exercise 2
 
 Create a melody by using variables instead of numbers. Try to add parameters to each note and store their value in a variable as well!
 
-HINT: Try to use this exercise to explore different keyboards in SonicPi! On the first line, try to type `use_synth :` and see the list that comes up ;)
+HINT: Try to use this exercise to explore different keyboards in SonicPi! On the first line, try to type `use_synth :` and see the list that comes up :wink:
 
 HINT 2: You can also read the built-in documentation to have more information on all the keyboards available.
 
