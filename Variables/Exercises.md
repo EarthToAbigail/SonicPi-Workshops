@@ -92,7 +92,7 @@ It's important to know that a variable declaration works from left to right. On 
 
 Speaking about names, one thing that is helpful is to give our variables **names that are descriptive and will help us remember the information they are holding**.
 
-For example, SonicPi already a bunch of declared variables built in that are ready for us to use. Until now we've been using numbers to say to SonicPi which note to play but we can also play these same notes by calling their variable name :simple_smile:
+For example, SonicPi has already a bunch of declared variables built in that are ready for us to use. Until now we've been using numbers to say to SonicPi which note to play but we can also play these same notes by calling their variable name :smirk:
 
 Now, instead of typing numbers we can call these notes by their name like so:
 
@@ -109,8 +109,8 @@ In music, the notes are named with letters of the alphabet from `a` to `g`:
 `A B C D E F G`
 
 * The `:` indicates to SonicPi that we are using a built-in variable.
-* The letter is the name of the note
-* The number indicates **how high or low the note is** (1 is very low and 6 is very high).
+* The `letter` is the name of the note
+* The `number` indicates **how high or low the note is** (1 is very low and 6 is very high).
 
 The creator of the program could've decided to call these variable `xyz` or `n1, n2, n3` but instead he decided to call them by the actual name of the note. This makes it very easy to understand what this variable is for and what piece of information is inside it!
 
