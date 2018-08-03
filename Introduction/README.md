@@ -14,7 +14,7 @@ The empty editor that you see is called a `buffer`. In total, SonicPi has **9 em
 
 * **Preferences**
 
-You can change your SonicPi settings by going to the preferences tab:
+You can change your SonicPi settings by going to the **Prefs** tab:
 
 ![Tabs](images/tabs.jpg?raw=true "SonicPi Tabs")
 
@@ -24,16 +24,16 @@ In the preference pane, you have the option to choose between 2 different visual
 
 * **Documentation**
 
-If you get stuck at any point or you are looking for some inspiration, SonicPi has a wonderful set of tutorials and documentation to guide you through your learning journey and make it code easy to understand. To access the documentation, just click on the **Help** tab next to **Prefs**.
+If you get stuck at any point or you are looking for some inspiration, SonicPi has a wonderful set of tutorials and documentation to guide you through your learning journey and make code easy to understand. To access the documentation, just click on the **Help** tab next to **Prefs**.
 
 ![Help Panel](images/help.jpg?raw=true "SonicPi Help Panel")
 
-  - The **tutorial tab** is a collection of lessons and useful tips about all of SonicPi's features.
-  - The **examples tab** is a collection of musical pieces that you can paste in a buffer and experiment with. The first examples are simple and the last ones are very advanced. All of them could be used to learn some useful things and experiment with while you are learning how to create your own pieces.
-  - The **synths tab** gives you information on all the different keyboards that you can find in SonicPi.
-  - The **fx tab** gives you information on all the effects you can apply in our code to change the original sound of the keyboards or samples you are using (more on that later :relaxed:)
-  - The **samples tab** gives you information on all the different samples that are built-in Sonicpi
-  - Finally, the **lang tab** (lang for "language") explains all the different meaning of the keywords you can use in your code. This is the documentation on the ruby language that SonicPi understands (more on reading documentation will come soon :blush:)
+  - The **Tutorial** tab is a collection of lessons and useful tips about all of SonicPi's features.
+  - The **Examples** tab is a collection of musical pieces that you can paste in a buffer and experiment with. The first examples are simple and the last ones are very advanced. All of them could be used to learn some useful things and experiment with while you are learning how to create your own pieces.
+  - The **Synths** tab gives you information on all the different keyboards that you can find in SonicPi.
+  - The **Fx** tab gives you information on all the effects you can apply in our code to change the original sound of the keyboards or samples you are using (more on that later :relaxed:)
+  - The **Samples** tab gives you information on all the different samples that are built-in Sonicpi
+  - Finally, the **Lang** tab (lang for "language") gives the definition of all the different keywords you can use in your code (like a dictionnary for programmers :smile:). This is the documentation on the ruby language that SonicPi understands (more on reading documentation will come soon :blush:)
 
   Ok, now that we have a first feel of the SonicPi interface it's time to start making our first sounds :smiley: We will start by learning two basic instructions: `play` and `sleep`.
 
@@ -43,7 +43,7 @@ Take the time to discover the SonicPi interface with your team mate. Click on th
 
 ## First Beeps
 
-You can play a melody by just saying to SonicPi to `play` something. A `play` instruction is usually followed by a `sleep` because the program needs to know how long it should wait before playing the next sound.
+You can play a melody by saying to SonicPi to `play` something. A `play` instruction is usually followed by a `sleep` instruction because the program needs to know how long it should wait before playing the next sound.
 
 Open a SonicPi buffer and type in this code:
 
@@ -52,9 +52,9 @@ play 60
 sleep 1
 ```
 
-In the number following `play` is the value of the sound. 60 is equal to middle C in music (don't worry if you don't know anything about music). Low numbers give very low sounds, high numbers give very high sounds. Sometimes, a frequency can be so low or so high that you can't even hear it (you can experiment with this :smiley:).
+The number following `play` is the value of the sound. **60** is equal to **middle C** in music (don't worry if you don't know anything about music). Low numbers give very low sounds, high numbers give very high sounds. Sometimes, a frequency can be so low or so high that you can't even hear it (you can experiment with this :smiley:).
 
-`sleep 1` tells SonicPi to wait 1 second before playing the next sound. In the first example, we didn't have any more play instructions so the program just stopped executing. Now try and type this code into your SonicPi buffer:
+`sleep 1` tells SonicPi to wait **1 second** before playing the next sound. In the first example, we didn't have any more play instructions so the program just stopped executing. Now try and type this code into your SonicPi buffer:
 
 ```
 play 60
@@ -76,9 +76,9 @@ play 67
 
 Wow! Now all the sounds are being played at the same time :smiley:
 
-You can see how `sleep` instructions are a useful thing but it's also possible to create interesting things by having different sounds being played at the same time.
+You can see how `sleep` instructions are useful but it's also possible to create interesting things by having different sounds being played at the same time.
 
-This is an example of a very famous melody that is played using only play and sleep:
+This is an example of a very famous melody that is played using only `play` and `sleep` (Go ahead and copy/paste this code into a SonicPi buffer! :smile:):
 
 ```
 play 60
@@ -138,7 +138,7 @@ sleep 2
 
 ## Creating Beats with samples :dancer:
 
-Sometimes we don't necessarily want to create melodies. Maybe we want to play a beat! After all, fat beats are a big part of electronic music :grinning: The way we can play things like drum sounds is through using **samples**. There are many different kinds of samples in SonicPi but for now we will focus on the ones that are drum sounds. To play a specific sample, we use the `sample` keywords. For example, try writing this code in a SonicPi buffer:
+Sometimes we don't necessarily want to create melodies. Maybe we want to play a beat! After all, fat beats are a big part of electronic music :grinning: The way we can play things like drum sounds is through using **samples**. There are many different kinds of samples in SonicPi but for now we will focus on the ones that are drum sounds. To play a specific sample, we use the `sample` keyword. For example, try writing this code in a SonicPi buffer:
 
 ```
 sample :bd_sone
