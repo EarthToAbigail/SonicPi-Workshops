@@ -172,7 +172,7 @@ Pair with a different person then in the previous exercise and this time create 
 
 ## Adding parameters to each sound :speaker:
 
-The last thing we will see is some parameters that can help us change something in the way our sound is played. For example, we might want some sounds to be louder then others. We can control the volume of each note by using the `amp:` parameter:
+The last thing we will see are parameters that can help us change something in the way our sound is played. For example, we might want some sounds to be louder then others. We can control the volume of each note by using the `amp:` parameter:
 
 ```
 play 60, amp: 0.2
@@ -232,11 +232,11 @@ sleep 2
 
 Some notes are louder then others because their `amp` parameter is higher. An `amp` of **0** will give complete silence and then the higher the number the louder the sound.
 
-Some other useful parameters that are fun to play with are `attack` and `release`. Why don't you go ahead and read the SonicPi documentation on them to understand what these parameters do!  :smiley:
+Some other useful parameters that are fun to play with are `attack` and `release`. Why don't you go ahead and read the SonicPi documentation on them to understand what these parameters do!  :eyeglasses: :smiley:
 
 
 ### Exercise 4
 
-Take the melodies and beats you have created in Exercise 2 and 3 and add different parameters to each sound. You can start by using `amp` and then read some of the SonicPi documentation on `attack` and `release` (feel free to read documentation on other parameters as well if you are curious! :open_mouth:).
+Take the melodies and beats you have created in **Exercise 2** and **3** and add different parameters to each sound. You can start by using `amp` and then read some of the SonicPi documentation on `attack` and `release` (feel free to read documentation on other parameters as well if you are curious! :open_mouth:).
 
-Congratulations, you have done your first steps into programming with SonicPi! :star: :notes: :muscle:
+:tada: **Congratulations!** :confetti_ball:, you have done your first steps into programming with SonicPi! :star: :notes: :muscle:
