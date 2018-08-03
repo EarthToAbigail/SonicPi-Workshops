@@ -176,11 +176,11 @@ While pair programming create a melody or a beat that loops for a **fixed number
 
 ### Exercise 2
 
-Create something that uses a `live_loop`. Experiment to change the code while SonicPi is still running and press the **Run** button again without stoping the music. What happens?
+Create something that uses a `live_loop`. Experiment to change the code while SonicPi is still running (press the **Run** button again without stoping the music). What happens?
 
 ### Exercise 3
 
-Use what you know about loops and threads to create a piece that uses a mix of loops and threads. Be as creative as you want and don't be afraid to try many different things! Especially try to change your code live using `live_loops` and see if you can make interesting changes in the music while your program is running. If your code throws and error, try to read the error message and understand what SonicPi is trying to tell you. Don't be shy to ask your team mate and classmates for help if you need it! :musical_note: :question: :flushed:
+Use what you know about `loops` and `threads` to create a piece that uses a mix of different kinds of loops and threads. Be as creative as you want and don't be afraid to try new things! Especially, experiment to change your code live using `live_loops` and see if you can make interesting changes in the music while your program is running. If your code throws and error, try to read the error message and understand what SonicPi is trying to tell you. Don't be shy to ask your team mate and classmates for help if you need it! :musical_note: :question: :flushed:
 
 ***
 
