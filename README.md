@@ -2,18 +2,18 @@
 
 ### Location:
 </br>
-Khan El-Basha Building, Nazareth
+**Khan El-Basha Building, Nazareth**
 
 ### Dates:
 </br>
-August 6 to August 17, 2018
+**August 6 to August 17, 2018**
 
 ### Organizers:
 </br>
 **Founders and Coders** @foundersandcoders </br>
 **Nazareth Culture and Tourism Association** (NCTA)</br>
 **The Afifi Group**
-<br></br>
+
 
 ### Learning Outcomes:
 
