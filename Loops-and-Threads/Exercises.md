@@ -14,7 +14,7 @@ The first kind of loop that can be used when we want to repeat something **a fix
 end
 ```
 ***
-***Side Note***
+***Side Note*** :pencil:
 
 Any line starting with `#` will create a `comment` which is words that are not interpreted as code by SonicPi. You can use this, for example, for typing the name of your piece at the top of your buffer:
 
@@ -45,7 +45,7 @@ Now our beat is playing 4 times without the need for us to type 4 times the same
 
 ### Live loops :repeat:
 
-Live loops are a special kind of loop that exists only in SonicPi and allows us to **repeat something infinitely** until we decide to stop it. What makes it so special is that these loops also allow us to change them without needing to stop the music.
+**Live loops** are a special kind of loop that exists only in SonicPi and allows us to **repeat something infinitely** until we decide to stop it. What makes it so special is that these loops also allow us to **change them without needing to stop the music**.
 
 To create a live loop we can use the keyword `live_loop` followed by `:` and **a name for our loop** (can be anything which doesn't have white spaces). On a new line we put the code we want to repeat followed by another new line and the keyword `end`, like so:
 
@@ -176,7 +176,11 @@ While pair programming create a melody or a beat that loops for a **fixed number
 
 ### Exercise 2
 
-Use what you know about loops and threads to create a piece that uses a mix of loops and threads. Be as creative as you want and don't be afraid to try many different things! If your code throws and error, try to read the error message and understand what SonicPi is trying to tell you. Don't be shy to ask your team mate and classmates for help if you need it! :musical_note: :question: :flushed:
+Create something that uses a `live_loop`. Experiment to change the code while SonicPi is still running and press the **Run** button again without stoping the music. What happens?
+
+### Exercise 3
+
+Use what you know about loops and threads to create a piece that uses a mix of loops and threads. Be as creative as you want and don't be afraid to try many different things! Especially try to change your code live using `live_loops` and see if you can make interesting changes in the music while your program is running. If your code throws and error, try to read the error message and understand what SonicPi is trying to tell you. Don't be shy to ask your team mate and classmates for help if you need it! :musical_note: :question: :flushed:
 
 ***
 
