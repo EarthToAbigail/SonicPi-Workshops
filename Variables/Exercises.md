@@ -82,7 +82,7 @@ sleep 1
 ```
 If we try to run this code in SonicPi we will not hear anything, instead we will see a big error message. :construction: :sos: :warning: :flushed:
 
-![Alt text](images/error.jpg?raw=true "SonicPi Error Message")
+![NameError](images/error.jpg?raw=true "SonicPi Error Message")
 
 If you read the error message carefully, you can see that SonicPi is throwing a `NameError` and seems to be complaining about the variable `note_2`. This is happening because we are trying to use the variable `note_2` before declaring it and assigning it a value. (We will cover error messages in a different workshop :blush:).
 
