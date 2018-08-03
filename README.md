@@ -14,8 +14,12 @@
 **Nazareth Culture and Tourism Association** (NCTA)</br>
 **The Afifi Group**
 
+### Mentors
 
-### Learning Outcomes: 
+**Mynah Marie** @MynahMarie </br>
+**Suha Eddris** @Suuuuha
+
+### Learning Outcomes:
 
 * Learn **programming concepts** using **SonicPi** and the **Ruby** programming language
 
