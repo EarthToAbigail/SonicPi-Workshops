@@ -17,7 +17,7 @@
 ### Mentors
 
 **Mynah Marie** @MynahMarie </br>
-**Suha Eddris** @Suuuuha
+**Suha Edris** @Suuuuha
 
 ### Learning Outcomes:
 
