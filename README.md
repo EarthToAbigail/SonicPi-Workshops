@@ -1,23 +1,26 @@
-# Coding and Music Summer Camp with SonicPi
+# :computer: Coding and Music Summer Camp with SonicPi :musical_note:
 
 ### Location:
-
+</br>
 Khan El-Basha Building, Nazareth
 
 ### Dates:
-
-August 6 to August 17 2018
+</br>
+August 6 to August 17, 2018
 
 ### Organizers:
-
+</br>
 **Founders and Coders** @foundersandcoders </br>
 **Nazareth Culture and Tourism Association** (NCTA)</br>
 **The Afifi Group**
+<br></br>
 
-## Learning Outcomes
+### Learning Outcomes:
 
-* Learn **programming concepts** using SonicPi
+* Learn **programming concepts** using **SonicPi** and the **Ruby** programming language
+
 * Apply the **pair programming** learning methodology used within the Founders and Coders program
+
 * Develop **creativity** through music and code
 
 
