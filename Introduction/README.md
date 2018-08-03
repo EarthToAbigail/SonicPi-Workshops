@@ -239,4 +239,6 @@ Some other useful parameters that are fun to play with are `attack` and `release
 
 Take the melodies and beats you have created in **Exercise 2** and **3** and add different parameters to each sound. You can start by using `amp` and then read some of the SonicPi documentation on `attack` and `release` (feel free to read documentation on other parameters as well if you are curious! :open_mouth:).
 
+***
+
 :tada: **Congratulations!** :confetti_ball:, you have done your first steps into programming with SonicPi! :star: :notes: :muscle:
