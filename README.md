@@ -30,6 +30,13 @@
 
 ***
 This repository contains a collection of workshops delivered in the context of this summer camp.
+
+**Order of the workshops:**
+
+1 - Introduction </br>
+2 - Variables </br>
+3 - Loops and Threads </br>
+4 - Conditional Statements
 ***
 
 <div align="center">
