@@ -1,17 +1,18 @@
-# Conditional Statements :loop:
+# Conditional Statements :white_check_mark: :negative_squared_cross_mark:
 
 ## What is it?
 
-A `conditional statement` means **if something is true then do this**. This is called an `if statement`. It's also possible to expand the logic to an `if-else statement` by saying something like **if something is true then do this else do that**. In this last case, the program will check if the `if statement` is true. If it is, the program will execute the next block of code. If it's false, the program will default to executing the block of code inside the `else statement`.
+A `conditional statement` means **if something is true then do this**. This is called an `if statement`. It's also possible to expand the logic to an `if-else statement` by saying something like **if something is true then do this else do that**. In this last case, the program will check if the `if statement` is **true**. If it is, the program will execute the next block of code. If it's **false**, the program will default to executing the block of code inside the `else statement`.
 
 It's also possible to chain if statements by inserting `else if` statements before the default `else` statement. This would be like saying **if something is true then do this, else if this other thing is true then do this instead, else just do that**.
 
-## How to write conditional statements
+## How to write conditional statements :pencil:
 
 There are some operators that we use to write equations that will evaluate to `true` or `false`:
 
-|  `<` 	| `smaller then`   	|
+|  operator 	| condition   	|
 |---	|---	|
+|  `<` 	| `smaller then`   	|
 |  `>` 	| `greater then`   	|
 |   `<=`	|  `smaller or equal then` 	|
 |   `>=`	|   `greater or equal then`	|
@@ -20,8 +21,9 @@ There are some operators that we use to write equations that will evaluate to `t
 
 The symbols for coding arithmetic expressions are:
 
-|  `+` 	|  `add` 	|
+|  operation 	|   	|
 |---	|---	|
+|  `+` 	|  `add` 	|
 |   `-`	|  `substract` 	|
 |   `*`	|   `multiply` *(equivalent to x)*	|
 |   `/`	|  `divide` 	|
@@ -30,19 +32,21 @@ The symbols for coding arithmetic expressions are:
 ***
 **Side Note**
 
-You might not be familiar with the **modulo operator** (`%`). The `modulo operator` gives us the **remainder** of a division. For example, `4 % 2 = 0` because **4** is an even number and can be divided by **2** perfectly. On the other hand, `3 % 2 = 1` because **3** is an odd number and is not divisible by **2**. This is a classical example of a practical way to use the `modulo operator` to check if a number is `even` or `odd`. We will see in a bit how this can be useful when working with `loops` and `conditional statements` inside SonicPi :relaxed:
+You might not be familiar with the **modulo operator** (`%`). The `modulo operator` gives us the **remainder** of a division. For example, `4 % 2 = 0` because **4** is an **even number** and can be divided by **2** perfectly. On the other hand, `3 % 2 = 1` because **3** is an **odd number** and is not divisible by **2**. This is a classical example of a practical way to use the `modulo operator` to check if a number is `even` or `odd`. We will see in a bit how this can be useful when working with `loops` and `conditional statements` inside SonicPi :relaxed:
 ***
 
 
-Usually, we will want to use a conditional statement when we are looping something and we want to check the value of a specific variable in that loop and run a piece of code accordingly. For that it's important to know that in computer science **the first number is zero** :interrobang:
+Usually, we will want to use a conditional statement when we are looping something. We will want to check the value of a specific variable in that loop and run a piece of code accordingly. For that it's important to know that in computer science **the first number is zero** :interrobang:
 
-With all this in mind, let's look at some examples:
+So if the computer counts a value, it will start counting at **0** *( 0, 1, 2, 3, ...)* . :confused:
 
-`if i == 0`   ---->  if `i` is equal to `0`, *remember: 0 is the first number so equal could mean **the first time something happens**</br>
+Let's look at some examples:
 
-`if (i + 4) < 10`  ----->  if the value of `i` plus **4** is smaller then `10` </br>
+`if i == 0`   ---->  if `i` is equal to `0` </br> *remember: **0** is the first number so equal to 0 could mean **the first time something happens***</br>
 
-`if i % 2 != 0` ------> if the `remainder of i` is **not** equal to **0** *(so it's an odd number)*
+`if (i + 4) < 10`  ----->  if the value of `i` plus `4` is smaller then `10` </br>
+
+`if i % 2 != 0` ------> if the `remainder of i` is **not** equal to `0` *(so it's an odd number)*
 
 
 ## Translating this to Ruby
@@ -66,11 +70,12 @@ Let's go over this code one line at the time.
 
 `8.times do |i|`
 
-We've seen this before when looking at `do loops` in the workshop on [Loops and Threads](../Loops-andThreads/Exercises.md). What is new here is that we use a `variable` called `i`. `i` is a pre-declared variable that already lives inside SonicPi. It counts the number of times we have been through the loop. As long as `i < 8`, the loop will play *(remember, we start counting from **0** :heavy_exclamation_mark:)* .
+We've seen this before when looking at `do loops` in the workshop on [Loops and Threads](../Loops-andThreads/Exercises.md). What is new here is that we use a `variable` called `i`. </br>
+`i` is a pre-declared variable that already lives inside SonicPi. It counts the number of times we have been through the loop. As long as `i < 8`, the loop will play *(remember, we start counting from **0** :heavy_exclamation_mark:)* .
 
 `puts i`
 
-`puts` is a useful instruction when we want to **see the value** of a specific variable at a moment in time. We can print anything with `puts` but in this case we are printing the value of the variable `i` every time we start the loop.
+`puts` is a useful instruction when we want to **see the value** of a specific variable at a moment in time. We can print anything with `puts` but in this case we are printing the value of the variable `i` every time we go through the loop.
 
 ![puts example](images/puts-example.jpg?raw=true "Example of usage of puts")
 
@@ -311,7 +316,7 @@ Discuss the code with your team mate to try and understand what is going on. It'
 * What happens in the code if that condition is `true`?
 * What about if it's `false`?
 
-Take some time to discuss the parts that you understand and then do some research in the SonicPi documentation to find information on the keywords you never saw before *(for example, what does `rrand` do? :smirk:)* . You can find information on different keywords by clicking on the **Help** tab and then looking in the **Lang** section :muscle: :star:
+Take some time to discuss the parts that you understand and do some research in the SonicPi documentation to find information on the keywords you never saw before *(for example, what does `rrand` do?* :smirk:*)* . You can find information on different keywords by clicking on the **Help** tab and then looking in the **Lang** section :muscle: :star:
 
 Once you feel like you are starting to understand the code, go ahead and play with it with your team mate! You can change values, change the conditions, add more variables... The sky is the limit! :fireworks: :full_moon_with_face:
 
