@@ -1,4 +1,4 @@
-# Conditional Statements
+# Conditional Statements :loop:
 
 ## What is it?
 
@@ -34,9 +34,9 @@ You might not be familiar with the **modulo operator** (`%`). The `modulo operat
 ***
 
 
-Usually, we will want to use a conditional statement when we are looping something and we want to check the value of a specific variable in that loop and run a piece of code accordingly. For that it's important to know that in computer science **the first number is zero**.
+Usually, we will want to use a conditional statement when we are looping something and we want to check the value of a specific variable in that loop and run a piece of code accordingly. For that it's important to know that in computer science **the first number is zero** :interrobang:
 
-If all this in mind, let's look at some examples:
+With all this in mind, let's look at some examples:
 
 `if i == 0`   ---->  if `i` is equal to `0`, *remember: 0 is the first number so equal could mean **the first time something happens**</br>
 
@@ -62,11 +62,11 @@ Consider this piece of code:
 end               # end of the loop
 ```
 
-Let's over this last piece of code one line at the time.
+Let's go over this code one line at the time.
 
 `8.times do |i|`
 
-We've seen this before when looking at `do loops` in the workshop on [Loops and Threads](../Loops-andThreads/Exercises.md). What is new here is that we use a `variable` called `i`. `i` is a pre-declared variable that already lives inside SonicPi. It counts the number of times we executed the loop. As long as `i < 8`, the loop will play *(remember, we start counting from **0** !)* .
+We've seen this before when looking at `do loops` in the workshop on [Loops and Threads](../Loops-andThreads/Exercises.md). What is new here is that we use a `variable` called `i`. `i` is a pre-declared variable that already lives inside SonicPi. It counts the number of times we have been through the loop. As long as `i < 8`, the loop will play *(remember, we start counting from **0** :heavy_exclamation_mark:)* .
 
 `puts i`
 
@@ -110,7 +110,7 @@ This is the `end` keyword that closes the `if` statement inside our loop.
 
 Finally, this is the `end` keyword that closes our loop.
 
-Let's review this one last time step by step from the beginning:
+:eyeglasses: Let's review this one last time step by step from the beginning:
 
 * We create a `do` loop that will execute a certain number of times
 * We use the `i` variable to keep track of the number of times we've already gone through the loop.
@@ -121,7 +121,7 @@ Let's review this one last time step by step from the beginning:
 * We close the `if-else statement` with `end`
 * We close the `do loop` with `end`
 
-Before you go on with solving the next exercise, let's look at a more exciting version of something you can do with conditional statements :smirk: Go ahead and paste this code in a SonicPi buffer and listen to it! :smile:
+Before you go on with solving the next exercises, let's look at a more exciting version of something you can do with conditional statements :smirk: Go ahead and paste this code in a SonicPi buffer and listen to it! *(don't forget to change the value of the section variable as indicated in the comment in the code)* :grinning:
 
 ```
 # Time Traveler - Earth To Abigail
@@ -198,11 +198,11 @@ end
 
 While pair programming, create a `do` loop that plays something different depending on the value of `i` .
 
-*(you might want to review the workshops on [Variables](../Variables/Exercises.md) if you need to refresh your memory :relaxed:)*
+*(You might want to review the workshops on [Variables](../Variables/Exercises.md) if you need to refresh your memory :relaxed:)*
 
 ### Exercise 2
 
-Copy/paste the following code into one of your SonicPi buffers:
+**Copy/paste the following code** into one of your SonicPi buffers:
 
 ```
 use_bpm 150
@@ -313,7 +313,7 @@ Discuss the code with your team mate to try and understand what is going on. It'
 
 Take some time to discuss the parts that you understand and then do some research in the SonicPi documentation to find information on the keywords you never saw before *(for example, what does `rrand` do? :smirk:)* . You can find information on different keywords by clicking on the **Help** tab and then looking in the **Lang** section :muscle: :star:
 
-Once you feel like you are starting to understand the code, go ahead and play with it with your team mate! You can change values, change the conditions, add more variables... The sky is the limit! :milky_way: :full_moon_with_face:
+Once you feel like you are starting to understand the code, go ahead and play with it with your team mate! You can change values, change the conditions, add more variables... The sky is the limit! :fireworks: :full_moon_with_face:
 
 :bulb: Feel free to play around with the "*Time Traveler*" example as well :smile:
 
@@ -322,4 +322,4 @@ Once you feel like you are starting to understand the code, go ahead and play wi
 Create more loops using `if-else` statements but this time use `live_loops` and include some of the new things you learned by looking and playing around with the code in the previous exercise! :grinning:
 
 ***
-Conditional statements gives you the power to change entire section of a song by changing only **1 letter** :grinning. Be creative and find new ways to apply this knowledge to create programs of your own! :notes: :sparkles: :speaker:
+Conditional statements gives you the power to change entire section of a song by changing only **1 letter** :grinning:. Be creative and find new ways to apply this knowledge to create awesome music of your own! :notes: :sparkles: :musical_keyboard:
