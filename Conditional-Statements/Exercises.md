@@ -68,24 +68,26 @@ end               # end of the loop
 
 Let's go over this code one line at the time.
 
-`8.times do |i|`
+* `8.times do |i|`
 
 We've seen this before when looking at `do loops` in the workshop on [Loops and Threads](../Loops-andThreads/Exercises.md). What is new here is that we use a `variable` called `i`. </br>
 `i` is a pre-declared variable that already lives inside SonicPi. It counts the number of times we have been through the loop. As long as `i < 8`, the loop will play *(remember, we start counting from **0** :heavy_exclamation_mark:)* .
 
-`puts i`
+* `puts i`
 
 `puts` is a useful instruction when we want to **see the value** of a specific variable at a moment in time. We can print anything with `puts` but in this case we are printing the value of the variable `i` every time we go through the loop.
 
 ![puts example](images/puts-example.jpg?raw=true "Example of usage of puts")
 
+
 In this screenshot, you can see on the left the value of `i` being printed to the screen *(the blue numbers on the right)* . You can also see that the first value being printed is **0** which confirms what we've been learning about indexing and how SonicPi (and computer programs in general) starts to count from **0** and not 1 the way we are used to.
+
 
 ![puts example 2](images/puts-example-2.jpg?raw=true "Second example of usage of puts")
 
 Similarly, the last value printed by the `puts` instruction in SonicPi is **7** and not 8. This brings us to the next line in our program:
 
-`if i < 4 then`
+* `if i < 4 then`
 
 Here we say to SonicPi that if `i` is smaller then 4 it should executed the piece of code that follows:
 
@@ -96,7 +98,7 @@ sleep 1
 
 So as long as `i` is smaller then **4** SonicPi will play `:c4` and `sleep 1`. This means that we will hear `:c4` **4 times** *(from 0 to 3 inclusive)* .
 
-`else`
+* `else`
 
 If the previous statement is `false` *(so `i` is equal or greater than 4)*, execute the piece of code that follows:
 
@@ -107,11 +109,11 @@ sleep 1
 
 In this case SonicPi will play `:f4` every time the value of `i` becomes equal or greater than **4** which means that we will hear `:f4` **4 times** *(from 4 to 7 inclusive)* .
 
-`end`
+* `end`
 
 This is the `end` keyword that closes the `if` statement inside our loop.
 
-`end`
+* `end`
 
 Finally, this is the `end` keyword that closes our loop.
 
@@ -203,7 +205,7 @@ end
 
 While pair programming, create a `do` loop that plays something different depending on the value of `i` .
 
-*(You might want to review the workshops on [Variables](../Variables/Exercises.md) if you need to refresh your memory :relaxed:)*
+*(You might want to review the workshops on [Variables](../Variables/Exercises.md) if you need to refresh your memory* :relaxed:*)*
 
 ### Exercise 2
 
