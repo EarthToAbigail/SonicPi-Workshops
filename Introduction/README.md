@@ -237,7 +237,26 @@ Some other useful parameters that are fun to play with are `attack` and `release
 
 ### Exercise 4
 
-Take the melodies and beats you have created in **Exercise 2** and **3** and add different parameters to each sound. You can start by using `amp` and then read some of the SonicPi documentation on `attack` and `release` (feel free to read documentation on other parameters as well if you are curious! :open_mouth:).
+Take the melodies and beats you have created in **Exercise 2** and **3** and add different parameters to each sound. You can start by using `amp` and then read some of the SonicPi documentation on more parameters.
+
+HINT :bulb: What happens if you put a value of `1` to `attack` on a `play 60` instruction?
+
+Try this:
+
+```
+play 60, amp: 1.4, attack: 1
+sleep 1
+```
+HINT 2 :bulb: What happens if you put a value of `-1` to `rate` when you play a `sample`? Try this:
+
+```
+sample :loop_amen_full, amp: 0.8, rate: -1
+sleep sample_duration(:loop_amen_full)
+```
+
+Do you hear the sample being played backwards :interrobang: :smirk:
+
+Feel free to read documentation on other parameters as well if you are curious! :open_mouth:).
 
 ***
 
