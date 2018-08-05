@@ -160,7 +160,7 @@ sample :drum_tom_lo_soft
 sleep 1
 ```
 
-When you type in the keywords `sample :`, SonicPi will show you a drop down menu of all the samples available. Feel free to explore all of them! :smiley: :headphones:
+When you type in the keyword `sample`, SonicPi will show you a drop down menu of all the samples available. Feel free to explore all of them! :smiley: :headphones:
 
 ### Exercise 2 :musical_note: :sparkles:
 
