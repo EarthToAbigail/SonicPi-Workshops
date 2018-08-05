@@ -35,13 +35,13 @@ If you get stuck at any point or you are looking for some inspiration, SonicPi h
   - The **Samples** tab gives you information on all the different samples that are built-in Sonicpi
   - Finally, the **Lang** tab (lang for "language") gives the definition of all the different keywords you can use in your code (like a dictionnary for programmers :smile:). This is the documentation on the ruby language that SonicPi understands (more on reading documentation will come soon :blush:)
 
-  Ok, now that we have a first feel of the SonicPi interface it's time to start making our first sounds :smiley: We will start by learning two basic instructions: `play` and `sleep`.
-
 ### Exercise 1 :computer: :book:
 
 Take the time to discover the SonicPi interface with your team mate. Click on the different tabs, customize the look of SonicPi to your preference and read some of the documentation available in the `Help` tab.
 
 ## First Beeps
+
+Ok, now that we have a first feel of the SonicPi interface it's time to start making our first sounds :smiley: We will start by learning two basic instructions: `play` and `sleep`.
 
 You can play a melody by saying to SonicPi to `play` something. A `play` instruction is usually followed by a `sleep` instruction because the program needs to know how long it should wait before playing the next sound.
 
