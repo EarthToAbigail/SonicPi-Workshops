@@ -2,7 +2,7 @@
 
 ## What is a variable?
 
-A variable is a piece of code that contains some information. Variables make our lives easier when we are programming because they allow us to save information in something that we can easily recognize, remember and re-use.
+A variable is **a piece of code that contains some information**. Variables make our lives easier when we are programming because they allow us to save information in something that we can easily recognize, remember and reuse.
 
 For example, let's say that I want my program to execute a mathematical operation. I can of course write the equation with numbers:
 
@@ -66,7 +66,8 @@ This already sounds very different then the first example we had!
 
 ### Variable declaration and assignment
 
-Before we can use a variable in our code, we first need to **give it a name** and **assign it a value**. This is called **declaring a variable**. It's very important to understand that **we can't use a variable before declaring it**. Consider this next example:
+Before we can use a variable in our code, we first need to **give it a name** and **assign it a value**. This is called **declaring a variable**. It's very important to understand that **we can't use a variable before declaring it**.
+Consider this next example:
 
 ```
 note_1 = note_2 + 5
@@ -106,7 +107,7 @@ sleep 1
 ```
 In music, the notes are named with letters of the alphabet from `a` to `g`:
 
-`A B C D E F G`
+`a b c d e f g`
 
 * The `:` indicates to SonicPi that we are using a built-in variable.
 * The `letter` is the name of the note
@@ -118,7 +119,7 @@ The creator of the program could've decided to call these variable `xyz` or `n1,
 
 ### Exercise 1
 
-Copy and paste the following code in a SonicPi buffer. Try to modify the code so that it will use variable names instead of numbers. Try to use both built-in variable and declaring your own. The melody should still be the same after you changed the code!
+Copy and paste the following code in a SonicPi buffer. Try to modify the code so that it will use variable names instead of numbers. Try to use both built-in variables and declaring your own. The melody should still be the same after you changed the code!
 
 ```
 use_bpm 100

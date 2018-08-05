@@ -4,7 +4,7 @@
 
 A `conditional statement` means **if something is true then do this**. This is called an `if statement`. It's also possible to expand the logic to an `if-else statement` by saying something like **if something is true then do this else do that**. In this last case, the program will check if the `if statement` is **true**. If it is, the program will execute the next block of code. If it's **false**, the program will default to executing the block of code inside the `else statement`.
 
-It's also possible to chain if statements by inserting `else if` statements before the default `else` statement. This would be like saying **if something is true then do this, else if this other thing is true then do this instead, else just do that**.
+It's also possible to chain `if statements` by inserting `else if` statements before the default `else` statement. This would be like saying **if something is true then do this, else if this other thing is true then do this instead, else just do that**.
 
 ## How to write conditional statements :pencil:
 
@@ -42,11 +42,22 @@ So if the computer counts a value, it will start counting at **0** *( 0, 1, 2, 3
 
 Let's look at some examples:
 
-`if i == 0`   ---->  if `i` is equal to `0` </br> *remember: **0** is the first number so equal to 0 could mean **the first time something happens***</br>
+```
+num = 3  # we declare a variable 'num' that has the value 3
 
-`if (i + 4) < 10`  ----->  if the value of `i` plus `4` is smaller then `10` </br>
+num > 5   # false
+num == 3  # true  
+num <= 3  # true
+num != 3  # false
+```
 
-`if i % 2 != 0` ------> if the `remainder of i` is **not** equal to `0` *(so it's an odd number)*
+Combining this with `if statements`:
+
+`if num == 0`   ---->  if `num` is equal to `0` -> **false** </br> *remember: **0** is the first number so equal to 0 could mean **the first time something happens***</br>
+
+`if (num + 4) < 10`  ----->  if the value of `num` plus `4` is smaller then `10` -> **true** </br>
+
+`if num % 2 != 0` ------> if `the remainder of num` is **not** equal to `0` *(so it's an odd number)* -> **true**
 
 
 ## Translating this to Ruby

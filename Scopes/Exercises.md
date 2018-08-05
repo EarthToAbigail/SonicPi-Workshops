@@ -10,7 +10,7 @@ So when we talk about scope, we mean **the range of a specific operation or vari
 
 ## Global Scope :globe_with_meridians: vs Local Scope :mag:
 
-When a variable has a *global scope* it means that the value of this variable is **available from everywhere in our program**. Let's look at some example code to try and understand this better.
+When a variable has a *global scope* it means that the value of this variable is **available from anywhere in our program**. Let's look at some example code to try and understand this better:
 
 ```
 use_bpm 90       # global scope
@@ -66,15 +66,14 @@ To make it easier to understand, let's take a look at a *pseudocode representati
 
 ```
 # All variables declared here are in my **global scope**
-# and I can use them anytime in my program.
+# and I can use them anywhere in my program.
 
 var_1 = "something"
 var_2 = "something_else"
 
 live_loop :myCoolLoop do
 
-  # anything happening here is in the **local scope of
-  # the :myCoolLoop** live loop
+  # anything happening here is in the local scope of :myCoolLoop
 
   local_var = "something_i_need_inside_this_loop"
 
@@ -84,17 +83,15 @@ end
 
 live_loop :anotherCoolThing do
 
-  # anything here is in the **local scope of the
-  # :anotherCoolThing** live loop
+  # anything here is in the local scope of :anotherCoolThing
 
   # I can use var_1, var_2 here
-  # I **can't use local_var** because that variable is out
-  # of scope inside this loop!
+  # I can't use local_var because that variable is out of scope
 
 end
 ```
 
-:sparkles: Before you continue with the next exercises, take some time to copy/paste the previous two examples into a SonicPi buffer and play around with them with your team mate :grinning: :headphones:
+:sparkles: Before you continue with the next exercises, take some time to **copy/paste the previous two examples into a SonicPi buffer** and play around with them with your team mate :grinning: :headphones:
 
 ### Exercise 1
 
@@ -177,4 +174,4 @@ Once you both understand a little bit better what the code does, go ahead and pl
 
 Work with a team mate to create loops of your own and apply different instruments to different loops by using `local scopes`. Find ways to **also use some variables globally**. Is there any way you could make your life easier by declaring a global variable and use it to change your code easily? :wink:
 
-HINT :bulb: When musicians perform electronic music live, they usually use a *mixer* to mix all the different sounds together. A mixer controls the volume of each instrument (a mixer can do much more then that but let's focus on volume for now :blush:). What about creating your own mixer for your loops using `global variables` ? :sunglasses:
+HINT :bulb: When musicians perform electronic music live, they usually use a *mixer* to mix all the different sounds together. A mixer controls the volume of each instrument (a mixer can do much more than that but let's focus on volume for now :blush:). What about creating your own mixer for your loops using `global variables` ? :sunglasses:
