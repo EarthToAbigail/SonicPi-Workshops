@@ -78,7 +78,7 @@ Wow! Now all the sounds are being played at the same time :smiley:
 
 You can see how `sleep` instructions are useful but it's also possible to create interesting things by having different sounds being played at the same time.
 
-This is an example of a very famous melody that is played using only `play` and `sleep` (Go ahead and copy/paste this code into a SonicPi buffer! :smile:):
+This is an example of a very famous melody that is played using only `play` and `sleep` (Go ahead and **copy/paste this code** into a SonicPi buffer! :smile:):
 
 ```
 play 60
