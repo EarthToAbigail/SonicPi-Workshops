@@ -1,4 +1,4 @@
-# :sparkles: :tada: Introduction to SonicPi :star2: :musical_note: :notes:
+# :sparkles: :tada: Introduction to SonicPi :star2: :musical_note: :headphones:
 
 ![Sonicpi Logog](images/sonicpi2.png?raw=true "SonicPi logo")
 
