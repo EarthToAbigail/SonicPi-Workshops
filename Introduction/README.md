@@ -8,7 +8,7 @@ In this introduction we are going to take a tour of SonicPi and understand some 
 
 * **Open up SonicPi**
 
-The empty editor that you see is called a `buffer`. In total, SonicPi has **9 empty buffers** where you can write your code in.
+The empty editor that you see is called a `buffer`. In total, SonicPi has **10 empty buffers** where you can write your code in.
 
 ![Buffers](images/buffers.jpg?raw=true "SonicPi buffers")
 
