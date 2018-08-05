@@ -6,7 +6,7 @@ If we look up the definition of *scope* in the English dictionary we get somethi
 
 The last definition is interesting to us in the context of computer science: **"The range of the effect of an operator** such as a quantifier or conjunction."
 
-So when we talk about scope, we mean **the range of a specific operation or variable inside our program**. There are in general 2 kinds of scopes: **global scope** and **local scope**.
+So when we talk about scope, we mean **the range of a specific operation or variable inside our program**. There are in general **2** kinds of scopes: **global scope** and **local scope**.
 
 ## Global Scope :globe_with_meridians: vs Local Scope :mag:
 
@@ -62,7 +62,7 @@ end
 
 In this last example, our *local scope* is the code that is executed **inside a loop**. *(We can also have nested local scopes, more on that later when we will see 'Conditional Statements'* :relaxed:*)* . Each loop has it's own scope, which is a local scope because the variables declared in that scope have an effect only within the scope of that particular loop. Any variable declared inside a local scope of a loop or function (we will see functions later on) **only has an effect inside that specific scope**.
 
-To make it easier to understand, let's take a look at a pseudocode representation (what is pseudocode? Google is your friend! :stuck_out_tongue_winking_eye:):
+To make it easier to understand, let's take a look at a *pseudocode representation* (what is pseudocode? Google is your friend! :stuck_out_tongue_winking_eye:):
 
 ```
 # All variables declared here are in my **global scope**
@@ -94,7 +94,7 @@ live_loop :anotherCoolThing do
 end
 ```
 
-:notes: Before you continue with the next exercises, take some time to copy/paste the previous two examples into a SonicPi buffer and play around with them with your team mate :grinning: :sparkles:
+:sparkles: Before you continue with the next exercises, take some time to copy/paste the previous two examples into a SonicPi buffer and play around with them with your team mate :grinning: :headphones:
 
 ### Exercise 1
 
@@ -175,6 +175,6 @@ Once you both understand a little bit better what the code does, go ahead and pl
 
 ### Exercise 2
 
-Work with a team mate to create loops of your own and apply different instruments to different loops by using `local scopes`. Find ways to also use some variables globally, is there any way you could make your life easier by declaring a global variable and using it to change your code easily? :wink:
+Work with a team mate to create loops of your own and apply different instruments to different loops by using `local scopes`. Find ways to **also use some variables globally**. Is there any way you could make your life easier by declaring a global variable and use it to change your code easily? :wink:
 
 HINT :bulb: When musicians perform electronic music live, they usually use a *mixer* to mix all the different sounds together. A mixer controls the volume of each instrument (a mixer can do much more then that but let's focus on volume for now :blush:). What about creating your own mixer for your loops using `global variables` ? :sunglasses:
