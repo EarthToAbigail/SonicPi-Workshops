@@ -31,7 +31,7 @@
 ***
 This repository contains a collection of workshops delivered in the context of this summer camp.
 
-**Order of the workshops:**
+### Order of the workshops:
 
 1 - Introduction </br>
 2 - Variables </br>
