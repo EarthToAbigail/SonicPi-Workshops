@@ -172,7 +172,7 @@ Pair with a different person then in the previous exercise and this time create 
 
 ## Adding parameters to each sound :speaker:
 
-The last thing we will see are parameters that can help us change something in the way our sound is played. For example, we might want some sounds to be louder then others. We can control the volume of each note by using the `amp:` parameter:
+The last thing we will see are **parameters that can help us change something in the way our sound is played**. For example, we might want some sounds to be louder then others. We can control the volume of each note by using the `amp:` parameter:
 
 ```
 play 60, amp: 0.2
