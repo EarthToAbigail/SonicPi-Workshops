@@ -43,7 +43,7 @@ the letter if we want a note a bit higher or a `b` if we want a note a little bi
 
 Here's a diagram to make it a bit easier to visualize:
 
-<TODO>
+![Musical Notation in Sonic Pi](./images/musical-notes-design.jpg)
 
 ### Understanding basic sound parameters
 
