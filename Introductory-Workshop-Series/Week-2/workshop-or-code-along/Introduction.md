@@ -6,7 +6,7 @@ and on the other, we will learn some music and live coding tricks that will help
 our piece without too much effort.
 
 To start, open `your-awesome-tune.rb` here on Github. Take a moment to read the code and try to get a general understanding of what it does. When you're ready, copy/paste its content into an empty Sonic Pi buffer
-and press `Play |>`.
+and press `Play`.
 
 ## Examining the code
 
