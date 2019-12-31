@@ -1,8 +1,5 @@
 use_bpm 120
 
-HIHATS = "~/Music/SAMPLES/Cymatics-Cobra-HipHop/Drum One Shots/Cymbals/Hihats - Closed/Cymatics - Cobra Closed Hihat "
-
-
 ########################## Step 1 ################################
 #           Using variables and conditional statements           #
 ##################################################################

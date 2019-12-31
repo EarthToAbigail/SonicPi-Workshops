@@ -1,7 +1,10 @@
 use_bpm 120
 
+# This is the path to my personal collection of samples on my computer.
+# Here's the download link for these drum samples, you can download for free in exchange of your email address.
+# The ones I use here are the drum samples in the 808 Mob Hip Hop sample pack:
+# https://cymatics.fm/pages/free-download-vault
 HIHATS = "~/Music/SAMPLES/Cymatics-Cobra-HipHop/Drum One Shots/Cymbals/Hihats - Closed/Cymatics - Cobra Closed Hihat "
-
 
 ######################### Step 4 #################################
 #                        Polishing - Finishing Up                #
@@ -22,6 +25,7 @@ end
 
 # Cymbals
 live_loop :hihats do
+  # Create a list of numbers from 1 to 13 inclusive
   num = *(1..13)
   with_fx :echo do
     in_thread do

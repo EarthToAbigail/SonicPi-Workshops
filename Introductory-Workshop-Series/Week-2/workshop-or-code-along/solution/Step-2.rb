@@ -1,8 +1,5 @@
 use_bpm 120
 
-HIHATS = "~/Music/SAMPLES/Cymatics-Cobra-HipHop/Drum One Shots/Cymbals/Hihats - Closed/Cymatics - Cobra Closed Hihat "
-
-
 ######################### Step 2 #################################
 #                    Refactoring - loops, lists                  #
 ##################################################################
@@ -25,7 +22,7 @@ live_loop :hihats do
 end
 
 # Melody
-live_loop :melody, sync: :bass_drum do
+live_loop :melody do
   e3 = :e3
   e4 = :e4
   if isDark
@@ -40,7 +37,7 @@ live_loop :melody, sync: :bass_drum do
 end
 
 # Bass line
-live_loop :bass, sync: :bass_drum do
+live_loop :bass do
   a = :a1
   if isDark
     a =:ab1
