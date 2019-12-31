@@ -49,6 +49,8 @@ end
 
 # Melody
 live_loop :melody, sync: :bass_drum do
+  # These 2 lines use the ternary operator, which is the question mark.
+  # They have the same effect as an 'if' statement
   e3 = isDark ? :eb3 : :e3
   e4 = isDark ? :eb4 : :e4
 
