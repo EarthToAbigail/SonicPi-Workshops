@@ -28,7 +28,7 @@ Here's the very basics of how music notation works:
 - The names of notes all start by one of these letters: a, b, c, d, e, f, g
 - There's **12 notes** in an __octave__
 - An `octave` is the distance between one note and the same note higher or lower. So if you start on `a`
-  and play all possible notes one after the other going up then the 13th note will again `a`, only one `octave`
+  and play all possible notes one after the other going up then the 13th note will again be `a`, only one `octave`
   higher.
 
 In Sonic Pi, note names are saved as variables that we can use. Each note name starts with a `:`, then a letter (`a, b, c, d, e, f or g`) and finally a number indicating how high or low the sound is (the number of octaves).
