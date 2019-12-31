@@ -58,4 +58,4 @@ familiarize yourself with what it does is to give it a try with different sounds
 
 __See Sonic Pi's documentation for a complete explanation__
 
-With that said, we can [move forward to Step 1](./Step-1) :tada:
+With that said, we can [move forward to Step 1](./Step-1.md) :tada:
