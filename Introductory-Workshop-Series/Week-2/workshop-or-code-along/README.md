@@ -4,6 +4,8 @@ This is written as a workshop but originally presented as a code along.
 The workshop is divided into 5 steps and is meant to cover fundamental concepts in programming
 as well as Sonic Pi basics and live coding "quick wins".
 
+Solutions to each step is provided in the `solution` folder.
+
 ## Table of Content
 
 * [Introduction](./Introduction.md)
