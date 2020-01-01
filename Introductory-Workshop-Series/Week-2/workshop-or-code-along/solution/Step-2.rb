@@ -29,10 +29,9 @@ live_loop :melody do
     e3 = :eb3
     e4 = :eb4
   end
-  tick
-  notes = (ring :c3, e3, :f3, :g3, :c4, e4, :f4, :g4)
+  notes = (ring :c3, e3, :f3, :g3, :c4, e4, :f4, :g4).tick
   use_synth :tri
-  play notes.look, amp: 0.7, release: 0.1, decay: 0.1, sustain: 0.25
+  play notes, amp: 0.7, release: 0.1, decay: 0.1, sustain: 0.25
   sleep 0.5
 end
 
