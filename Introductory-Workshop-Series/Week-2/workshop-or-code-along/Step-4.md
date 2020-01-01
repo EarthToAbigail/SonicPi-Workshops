@@ -106,6 +106,6 @@ template code to make it more interesting.
 
 Let your creativity go wild! 🤠:musical_note: :computer:
 
-When you're ready, check out the last step! Great job for making it this far!
+When you're ready, check out the last step! Great job for making it this far! :tada: :smiley:
 
 [Step 5](./Step-5)
