@@ -1,8 +1,5 @@
 use_bpm 120
 
-HIHATS = "~/Music/SAMPLES/Cymatics-Cobra-HipHop/Drum One Shots/Cymbals/Hihats - Closed/Cymatics - Cobra Closed Hihat "
-
-
 ######################### Step 3 #################################
 #                        Randomness                              #
 ##################################################################
@@ -20,23 +17,11 @@ end
 
 # Cymbals
 live_loop :hihats do
-  num = *(1..13)
-  in_thread do
-    8.times do
-      sample HIHATS + "#{num.choose}.wav", rate: [1, 2, 5, 7].choose, pan: rrand(-1, 1), amp: 0.7 if one_in(2)
-      sleep 0.25
-    end
-  end
-  in_thread do
-    8.times do
-      sample HIHATS + "#{num.choose}.wav", rate: [0.5, 0.2, -0.5, -1, -0.2].choose, pan: rrand(-1, 1), amp: 0.7 if one_in(2)
-      sleep 0.25
-    end
-  end
-  2.times do
-    sample :drum_cymbal_closed, rate: 5, amp: 1.3
-    sleep 1
-  end
+  sample :drum_cymbal_closed, amp: rrand(0.5, 1.3), rate: rrand(2, 6), pan: rrand_i(-1, 1) if one_in(3)
+  sample :drum_cymbal_closed, amp: rrand(0.5, 1.3), rate: rrand(-1, -4) if one_in(5)
+  sample :drum_cymbal_closed, amp: 1.5, rate: 2.5 if one_in(2)
+  sample :drum_cymbal_pedal, amp: 1.2, rate: [2, 3, 4, -1, -2].choose, pan: rrand(-1, 1) if one_in(4)
+  sleep 0.25
 end
 
 # Melody

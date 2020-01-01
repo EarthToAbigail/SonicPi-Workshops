@@ -25,7 +25,7 @@ end
 
 # Cymbals
 live_loop :hihats do
-  # Create a list of numbers from 1 to 13 inclusive
+  # The next line creates a list of numbers from 1 to 13 inclusive
   num = *(1..13)
   with_fx :echo do
     in_thread do
