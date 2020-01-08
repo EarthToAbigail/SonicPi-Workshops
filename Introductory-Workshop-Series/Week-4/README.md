@@ -4,44 +4,44 @@
 
 **Robin Newman**
 
-Github:
+Github:<br>
 https://github.com/rbnpi
 
-Blog:
+Blog:<br>
 https://rbnrpi.wordpress.com/
 
 **SonicPi community forum**
 
-In_Thread:
+In_Thread:<br>
 https://in-thread.sonic-pi.net/
 
 ## Tidal Cycles
 
-**Tidal Cycles Installation and Documentation**
+**Tidal Cycles Installation and Documentation**<br>
 https://tidalcycles.org/index.php/Welcome
 
-**Web interface for collaborative projects**
+**Web interface for collaborative projects**<br>
 
-Project developped by Eldad Tsabary
-**Estuary**:
+Project developped by Eldad Tsabary<br>
+**Estuary**:<br>
 https://intramuros.mcmaster.ca/
 
 ## Bytebeat
 
-**Viznut's Articles and Videos**
+**Viznut's Articles and Videos**<br>
 
-http://viznut.fi/texts-en/bytebeat_algorithmic_symphonies.html
-http://viznut.fi/texts-en/bytebeat_deep_analysis.html
-http://viznut.fi/texts-en/bytebeat_exploring_space.pdf
+http://viznut.fi/texts-en/bytebeat_algorithmic_symphonies.html<br>
+http://viznut.fi/texts-en/bytebeat_deep_analysis.html<br>
+http://viznut.fi/texts-en/bytebeat_exploring_space.pdf<br>
 
-**Web interface for Bytebeat**
+**Web interface for Bytebeat**<br>
 
-https://greggman.com/downloads/examples/html5bytebeat/html5bytebeat.html
+https://greggman.com/downloads/examples/html5bytebeat/html5bytebeat.html <br>
 
-**Rampcode**
+**Rampcode** <br>
 
-Github:
-https://github.com/gabochi/rampcode
+Github:<br>
+https://github.com/gabochi/rampcode<br>
 
-YouTube:
-https://www.youtube.com/watch?v=UVPiRbt5MBc
+YouTube:<br>
+https://www.youtube.com/watch?v=UVPiRbt5MBc <br>
